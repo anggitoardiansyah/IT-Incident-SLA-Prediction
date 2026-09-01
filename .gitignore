@@ -1,0 +1,19 @@
+# Dataset — download from UCI, don't commit
+*.csv
+!sla_risk_scores.csv
+*.zip
+
+# Notebook noise
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
